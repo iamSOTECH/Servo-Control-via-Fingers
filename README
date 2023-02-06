@@ -1,4 +1,3 @@
-# Servo-Control-via-Fingers
 Using a mixture of computer vision, embedded systems, and servo motors, you can move a servo using only the number of fingers up on a hand.
 The program uses computer vision, running via the local computer's webcam, to identify hands when they are present in the image. The program
 identifies which hand is up, as well as identifying the number of fingers that are on each hand. The hand(left, right, or both) determines
