@@ -1,11 +1,8 @@
 Using a mixture of computer vision, embedded systems, and servo motors, you can move a servo using only the number of fingers up on a hand.
-The program uses computer vision, running via the local computer's webcam, to identify hands when they are present in the image. The program identifies which hand is up, as well as identifying the number of fingers that are on each hand. The hand(left, right, or both) determines
-the direction of movement. The number of fingers determines the amount of movement- 1 finger is 10 degrees, 2 is 20 degrees, etc.
+The program uses computer vision, running via the local computer's webcam, to identify hands when they are present in the image. The program identifies which hand is up, as well as identifying the number of fingers that are on each hand. The hand(left, right, or both) determines the direction of movement. The number of fingers determines the amount of movement- 1 finger is 10 degrees, 2 is 20 degrees, etc.
 
-Arduino code is run on a Arduino Uno R3. The servos used in this project have a limit of 180 degrees, hence the limits that are imposed.
-0-180 degrees ROM for the x-axis and 90-180 degrees ROM for the y-axis.
+Arduino code is run on a Arduino Uno R3. The servos used in this project have a limit of 180 degrees, hence the limits that are imposed. 0-180 degrees ROM for the x-axis and 90-180 degrees ROM for the y-axis.
 
-Python code is ran locally on a host computer, utilizing the internal built-in webcam. OpenCV and CVZone libraries are utilized in order to 
-process the webcam image, as well as perform hand/finger tracking in order to register the number of fingers that are up on each hand.
+Python code is ran locally on a host computer, utilizing the internal built-in webcam. OpenCV and CVZone libraries are utilized in order to process the webcam image, as well as perform hand/finger tracking in order to register the number of fingers that are up on each hand.
 
 For full implementation details, go to https://www.hackster.io/bhalessotech/finger-based-servo-control-dcc218
