@@ -9,3 +9,5 @@ Arduino code is run on a Arduino Uno R3. The servos used in this project have a 
 
 Python code is ran locally on a host computer, utilizing the internal built-in webcam. OpenCV and CVZone libraries are utilized in order to 
 process the webcam image, as well as perform hand/finger tracking in order to register the number of fingers that are up on each hand.
+
+For full implementation details, go to https://www.hackster.io/bhalessotech/finger-based-servo-control-dcc218
